@@ -1,0 +1,25 @@
+# 1. Cria o Ambiente Virtual (a "caixa" isolada do projeto)
+# O primeiro 'venv' é o comando, o segundo é o nome da pasta que será criada.
+python3 -m venv venv
+
+# 2. Ativa o ambiente (entra na "caixa")
+# A partir daqui, tudo o que você instalar fica guardado só nesta pasta.
+# Você verá um (venv) aparecer no início da linha do terminal.
+source venv/bin/activate
+
+# 3. Instala o Pandas (a biblioteca de tabelas)
+# Como o ambiente está ativo, ele instala aqui dentro e não no sistema todo.
+pip install pandas
+
+# 4. Instala o suporte para Excel (.xlsx)
+# O Pandas precisa desta biblioteca "ajudante" para abrir arquivos de Excel reais.
+pip install openpyxl
+
+# 5. Executa o seu código
+# O Python agora vai encontrar o Pandas e o Openpyxl porque o venv está ativo.
+python3 teste.py
+
+# 6. Sai do ambiente virtual
+# Use este comando quando terminar de programar. 
+# O (venv) sumirá do terminal e o Python voltará ao estado original do sistema.
+deactivate

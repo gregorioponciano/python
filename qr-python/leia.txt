@@ -1,0 +1,25 @@
+Instale o pacote qrcode (se ainda não instalou). No terminal do VS Code, execute:
+# 1. Cria o Ambiente Virtual (a "caixa" isolada do projeto)
+# O primeiro 'venv' é o comando, o segundo é o nome da pasta que será criada.
+
+python3 -m venv venv
+
+# 2. Ativa o ambiente (entra na "caixa")
+# A partir daqui, tudo o que você instalar fica guardado só nesta pasta.
+# Você verá um (venv) aparecer no início da linha do terminal.
+
+source venv/bin/activate
+
+# 6. Sai do ambiente virtual
+# Use este comando quando terminar de programar. 
+# O (venv) sumirá do terminal e o Python voltará ao estado original do sistema.
+
+deactivate
+
+pip install Pillow' no terminal (venv)
+pip install qrcode[pil]
+Execute o script. No terminal, navegue até a pasta onde está o arquivo e rode:
+python script.py
+Isso irá gerar o arquivo qrcx.pgn (mas o correto seria .png). Se quiser corrigir, altere a última linha para:
+png.save('qrcx.png')
+Depois, execute novamente. 

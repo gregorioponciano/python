@@ -1,0 +1,16 @@
+{
+    "version": "3.0.0",
+    "max_depth": 10,
+    "timeout": 30,
+    "brute_force_limit": 1000000,
+    "entropy_threshold": 7.5,
+    "min_printable_ratio": 0.7,
+    "xor_max_key_size": 50,
+    "auto_export": true,
+    "verbose": true,
+    "save_logs": true,
+    "output_dir": "output",
+    "wordlist_dir": "wordlists",
+    "temp_dir": "temp",
+    "log_dir": "logs"
+}

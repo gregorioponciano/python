@@ -1,0 +1,11 @@
+Nome,CPF,Email,Telefone,Parentesco
+João Silva,123.456.789-00,joao.silva@email.com,(11) 99999-1111,Pai
+Maria Santos,987.654.321-00,maria.santos@email.com,(11) 98888-2222,Mãe
+Pedro Oliveira,456.789.123-00,pedro.oliveira@email.com,(21) 97777-3333,Filho
+Ana Souza,789.123.456-00,ana.souza@email.com,(31) 96666-4444,Filha
+Carlos Lima,321.654.987-00,carlos.lima@email.com,(41) 95555-5555,Irmão
+Juliana Costa,654.321.789-00,juliana.costa@email.com,(51) 94444-6666,Irmã
+Roberto Alves,111.222.333-44,roberto.alves@email.com,(61) 93333-7777,Avô
+Fernanda Rocha,555.666.777-88,fernanda.rocha@email.com,(71) 92222-8888,Avó
+Lucas Pereira,999.888.777-66,lucas.pereira@email.com,(81) 91111-9999,Primo
+Amanda Ferreira,444.555.666-77,amanda.ferreira@email.com,(11) 90000-1234,Prima

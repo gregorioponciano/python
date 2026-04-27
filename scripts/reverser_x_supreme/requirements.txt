@@ -1,0 +1,6 @@
+pycryptodome>=3.19.0
+cryptography>=41.0.7
+colorama>=0.4.6
+pyfiglet>=0.8.post1
+tqdm>=4.66.1
+rich>=13.7.0
